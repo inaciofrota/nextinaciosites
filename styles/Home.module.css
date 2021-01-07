@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: aliceblue;
 }
 
 .main {
@@ -49,11 +50,13 @@
 .title,
 .description {
   text-align: center;
+  
 }
 
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
+  color: rgb(0, 0, 32);
 }
 
 .code {
@@ -84,13 +87,14 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
+  background-color: rgba(69,57,204,.3);
+  min-height: 200px;
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  text-shadow: 0 0 5px aliceblue;
 }
 
 .card h3 {
@@ -102,6 +106,7 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
+  color: rgb(0, 0, 32);
 }
 
 .logo {
