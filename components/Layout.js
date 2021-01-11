@@ -4,7 +4,6 @@ import Router from "next/router";
 import NProgress from "nprogress";
 import Image from 'next/image'
 import styles from '../styles/Layout.module.css'
-import { Children } from "react";
 
 Router.onRouteChangeStart = url => {
   console.log(url);

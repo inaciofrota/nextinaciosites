@@ -1,7 +1,12 @@
 .children{
   display: flex;
-  flex-direction: row;
-  width: 100%;
+  flex-grow: 1;
+}
+.session{
+  width: 350px;
+  margin: 25px;
+  padding: 25px;
+  background-color: rgba(69,57,204,.3);
 }
 .site{
   width: 350px;
@@ -10,7 +15,7 @@
 .site a{
   display: block;
   cursor: pointer;
-  text-align: center;
+  text-align: left;
 }
 .site iframe{
   border: none;
