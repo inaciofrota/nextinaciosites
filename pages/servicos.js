@@ -1,12 +1,15 @@
 import Layout from "../components/Layout";
-
+import styles from '../styles/Servicos.module.css'
 const Servicos = () => (
-  <Layout title="Serviços" text="texto" sessionimage="/Servicos.png">
-    <ul>
-      <li>Sites Pessoais</li>
-      <li>Sites Comerciais</li>
-      <li>Blog</li>
-    </ul>
+  <Layout title="Serviços" text="Temos uma proposta para colocar sua empresa na internet" sessionimage="/Servicos.png">
+    <div className={styles.children}>
+      <ul>
+        <li>Sites Pessoais</li>
+        <li>Sites Comerciais</li>
+        <li>Blog</li>
+      </ul>
+    </div>
+    
   </Layout>
 );
 
