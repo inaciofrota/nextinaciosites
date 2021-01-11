@@ -8,8 +8,10 @@
   padding: 25px;
   background-color: rgba(69,57,204,.3);
 }
+.session h3{
+  text-align: center;
+}
 .site{
-  width: 350px;
   margin-bottom: 25px;
 }
 .site a{
@@ -19,8 +21,15 @@
 }
 .site iframe{
   border: none;
-  
 }
-.session h3{
-  text-align: center;
+
+@media only screen and (max-width: 600px) {
+  .children{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .session{
+    
+  }
 }

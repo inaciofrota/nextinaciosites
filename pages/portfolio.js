@@ -10,7 +10,7 @@ const Portfolio = () => (
       <div className={styles.session}>
         <h3 className={styles.titleh3}>Sites</h3>
         <div className={styles.site}>
-          <iframe src="https://redencaorock.com.br" scrolling="no" height="200" title="redenção"></iframe>
+          <iframe src="https://redencaorock.com.br" scrolling="no" height="200" width="300" title="redenção"></iframe>
           <a href="https://redencaorock.com.br" target="_blanck" >Rendenção
           </a>
         </div>

@@ -39,6 +39,9 @@ const Layout = ({ title, text, sessionimage, children }) => (
           <Link href="/portfolio">
             <a>Portfolio</a>
           </Link>
+          <Link href="/contato">
+            <a>Contato</a>
+          </Link>
         </div>
         <div className={styles.grid}>
           <h2 className={styles.titleh2}>{title}</h2>
