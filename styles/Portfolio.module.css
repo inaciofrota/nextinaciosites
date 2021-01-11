@@ -1,0 +1,21 @@
+.children{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.site{
+  width: 350px;
+  margin-bottom: 25px;
+}
+.site a{
+  display: block;
+  cursor: pointer;
+  text-align: center;
+}
+.site iframe{
+  border: none;
+  
+}
+.session h3{
+  text-align: center;
+}

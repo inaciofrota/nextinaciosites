@@ -1,12 +1,12 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Inácio Frota</title>
-        <link rel="icon" href="/favicon.ico" />
+        
       </Head>
 
       <main className={styles.main}>
@@ -19,44 +19,37 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-        <a href="#" className={styles.card}>
+        <Link href="/servicos">
+          <a className={styles.card}>
             <h3>Serviços &rarr;</h3>
             <p>Nossos serviços e produtos para o seu site</p>
           </a>
+        </Link>
 
-
-          <a href="#" className={styles.card}>
+        <Link href="/sobre">
+          <a className={styles.card}>
             <h3>Sobre &rarr;</h3>
             <p>Aqui descrevo um pouco de minha história e formação</p>
           </a>
-
-          <a href="#" className={styles.card}>
+        </Link>
+        <Link href="/portfolio">
+          <a className={styles.card}>
             <h3>Portfólio &rarr;</h3>
             <p>Confira aqui alguns projetos que tenho desenvolvido</p>
           </a>
-
-          <a
-            href="#" className={styles.card}
-          >
+        </Link>
+          
+        <Link href="/contato">
+          <a className={styles.card}>
             <h3>Contato &rarr;</h3>
             <p>Conte-nos como quer seu site e faremos a proposta perfeita para você</p>
           </a>
-
+        </Link>
         
         </div>
       </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="#"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Inácio Frota
-        </a>
-      </footer>
+      <footer className={styles.footer}>&copy; {new Date().getFullYear()} Inácio Sites</footer>
     </div>
   )
 }
-
-// fazer push no github git push -u origin main
