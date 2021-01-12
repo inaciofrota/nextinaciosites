@@ -7,6 +7,8 @@ const Servicos = () => (
         <li>Sites Pessoais</li>
         <li>Sites Comerciais</li>
         <li>Blog</li>
+        <li>Responsividade</li>
+        <li>SEO</li>
       </ul>
     </div>
     
