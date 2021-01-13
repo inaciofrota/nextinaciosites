@@ -16,7 +16,7 @@ Router.onRouteChangeError = () => NProgress.done();
 const Layout = ({ title, text, sessionimage, children }) => (
   <div className={styles.container}>
     <Head>
-      
+      <title>Inácio Sites</title>
     </Head>
     <main className={styles.main}>
       <h1 className={styles.title}>

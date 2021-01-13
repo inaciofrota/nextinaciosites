@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        
+      <title>Inácio Sites</title>
       </Head>
 
       <main className={styles.main}>

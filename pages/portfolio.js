@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
 import styles from '../styles/Portfolio.module.css'
+import Iframe from 'react-iframe'
 const Portfolio = () => (
   <Layout title="Portfólio" text="Sites e aplicações web já desenvolvidos" sessionimage="/Portfolio.png" >
 
@@ -10,7 +11,7 @@ const Portfolio = () => (
       <div className={styles.session}>
         <h3 className={styles.titleh3}>Sites</h3>
         <div className={styles.site}>
-          <iframe src="https://redencaorock.com.br" scrolling="no" height="200" width="300" title="redenção"></iframe>
+          <Iframe src="https://redencaorock.com.br" scrolling="no" height="200" width="300" title="redenção"></Iframe>
           <a href="https://redencaorock.com.br" target="_blanck" >Rendenção
           </a>
         </div>
