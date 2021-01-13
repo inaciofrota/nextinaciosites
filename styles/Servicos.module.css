@@ -2,13 +2,24 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+.children div{
+  margin: 25px;
+  background-color: rgba(69,57,204,.3);
+  padding: 0 25px;
 }
 .children ul{
-  
   list-style: none;
   padding: 0;
 }
 .children ul li{
   color: rgb(0, 0, 32);
   font-size: 1.5rem;
+}
+@media only screen and (max-width: 600px) {
+  .children{
+    flex-direction: column;
+    align-items: center;
+  }
 }
