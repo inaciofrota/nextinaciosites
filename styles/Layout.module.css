@@ -44,6 +44,7 @@
   margin: 0;
   line-height: 1;
   font-size: 3rem;
+  color: rgb(0, 0, 32);
 }
 
 .title,
@@ -96,9 +97,11 @@
 }
 
 .content p{
-  padding: 25px;
+  padding: 10px;
+  margin: 15px;
   max-width: 50%;
   line-height: 1.5em;
+  background-color: rgba(69,57,204,.3);
 }
 .image{
   padding: 25px;

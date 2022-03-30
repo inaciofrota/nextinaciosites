@@ -11,7 +11,20 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Inácio Frota
+          <span>I</span>
+          <span>n</span>
+          <span>á</span>
+          <span>c</span>
+          <span>i</span>
+          <span>o</span>
+          <span> </span>
+          <span>S</span>
+          <span>i</span>
+          <span>t</span>
+          <span>e</span>
+          <span>s</span>
+
+          
         </h1>
 
         <p className={styles.description}>
@@ -54,4 +67,4 @@ export default function Home() {
   )
 }
 //token github
-//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
+//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
